@@ -1,0 +1,38 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Nix build outputs — never commit these
+result
+result-*
+.direnv/
+.devenv/
+*.drv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Go
+bin/
+dist/
+
+# Rust
+target/
+
+# Secrets — use agenix/sops-nix properly instead
+.env
+*.age
+secrets.yaml
